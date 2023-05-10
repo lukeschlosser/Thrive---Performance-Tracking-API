@@ -1,7 +1,6 @@
 defmodule ThriveApiWeb.AuthController do
   use ThriveApiWeb, :controller
 
-  # Alias the relevant modules
   alias ThriveApi.Accounts
   alias ThriveApi.Accounts.User
   alias ThriveApi.Guardian
